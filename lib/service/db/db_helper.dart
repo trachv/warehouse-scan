@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
-import '../service/file_work.dart';
+import 'package:wh01/service/file_work.dart';
 
 class DBHelper {
   static final DBHelper _instance = new DBHelper.internal();

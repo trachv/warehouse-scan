@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:wh01/db/db_kamera.dart';
-import 'package:wh01/db/db_klass.dart';
-import 'package:wh01/db/db_sbor.dart';
+import 'package:wh01/service/db/db_kamera.dart';
+import 'package:wh01/service/db/db_klass.dart';
+import 'package:wh01/service/db/db_sbor.dart';
 import 'package:wh01/model/models.dart';
 
 class SborProvider extends ChangeNotifier {

@@ -1,7 +1,7 @@
 import 'package:sqflite/sqlite_api.dart';
 import 'package:sqflite/sqflite.dart';
-import '../db/db_helper.dart';
-import '../model/models.dart';
+import 'package:wh01/service/db/db_helper.dart';
+import 'package:wh01/model/models.dart';
 
 class DBKamera {
   DBHelper con = new DBHelper();

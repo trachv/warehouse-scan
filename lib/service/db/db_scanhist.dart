@@ -1,7 +1,7 @@
 import 'package:sqflite/sqlite_api.dart';
 import 'package:sqflite/sqflite.dart';
 import 'db_helper.dart';
-import '../model/models.dart';
+import 'package:wh01/model/models.dart';
 
 class DBScanhist {
   DBHelper con = new DBHelper();

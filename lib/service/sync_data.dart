@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
-import 'package:wh01/db/db_kamera.dart';
-import 'package:wh01/db/db_klass.dart';
-import 'package:wh01/db/db_scanhist.dart';
+import 'package:wh01/service/db/db_kamera.dart';
+import 'package:wh01/service/db/db_klass.dart';
+import 'package:wh01/service/db/db_scanhist.dart';
 import 'package:wh01/model/models.dart';
 
 Future<void> fethData() async {
